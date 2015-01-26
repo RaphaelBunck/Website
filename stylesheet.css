@@ -1,3 +1,8 @@
+@font-face {
+	font-family: lobster;
+	src: url(Font/LobsterTwo-Regular.otf);
+}
+
 body {
 background: #373B43; 
 color: #fff;
@@ -5,6 +10,7 @@ color: #fff;
 
 header.top-bar {
 background: #1B1E25;
+font-family: lobster, Arial;
 height: 6em;
 width: 100%;
 border: 1px;
