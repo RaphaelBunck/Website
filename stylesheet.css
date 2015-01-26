@@ -1,0 +1,14 @@
+body {
+background: #373B43; 
+}
+
+div.top-bar {
+background: #1B1E25;
+height: 6em;
+width: 100%;
+border: 1px;
+margin: 0px;
+position: absolute;
+left: 0;
+top: 0;
+}
