@@ -1,9 +1,13 @@
 $(document).ready(function() {
 	var name = ['R','a','p','h','a','ë','l'];
 	var i = 0;
-	while(i < name.length) {
-		var text = $('#typeName').html();
-		$('#typeName').delay(1000).text(text + name[i]);
-		i++;
-	}
+
+	var interval = setInterval(function() {
+			var text = $('#typeName').html();
+			$('#typeName').text(text + name[i]);
+			i++;
+			if(i >= name.length) {
+				clearInterval(interval);
+			}
+		}, 150);
 });
