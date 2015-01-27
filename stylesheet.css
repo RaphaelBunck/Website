@@ -19,3 +19,27 @@ position: absolute;
 left: 0;
 top: 0;
 }
+
+#typeName {
+font-size: 4em;
+font-family: lobster, Arial;
+position: absolute;
+top: 0.1em;
+left: 1em;
+}
+
+img.left {
+width: 3em;
+height: 5em;
+position: absolute;
+top: 0.5em;
+left: 1em;
+}
+
+img.right {
+width: 3em;
+height: 5em;
+position: relative;
+top: 0.5em;
+left: 17em;
+{
